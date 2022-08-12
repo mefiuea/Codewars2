@@ -75,3 +75,5 @@ def top_3_words_v2(text):
 print('#' * 30)
 print(top_3_words_v2(text6))
 print('#' * 30)
+
+print("re: ", re.findall("abc", "0123abc456 ab c"))
